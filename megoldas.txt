@@ -1,0 +1,14 @@
+A ~ a munkamappám.
+Mappa létrehozása: mkdir szakaszzaro
+
+8. feladat
+a) touch ./szakaszzaro/szakaszzaro_feladat.txt
+b) echo "Hello" > ./szakaszzaro/szakaszzaro_feladat.txt
+c) mv ./szakaszzaro/szakaszzaro_feladat.txt ./szakaszzaro/feladat.txt
+d) cp ./szakaszzaro/feladat.txt ./szakaszzaro/feladat2.txt
+e) rm ./szakaszzaro/feladat2.txt
+f) cat ./szakaszzaro/feladat.txt
+
+9. feladat
+Visszaléptem a root-ba.
+cat /var/log/syslog | grep NetworkManager >> ./home/aniko/szakaszzaro/feladat.txt
